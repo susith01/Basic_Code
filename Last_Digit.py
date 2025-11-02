@@ -1,5 +1,9 @@
 class PowerFinder:
+<<<<<<< HEAD
     def __init__(self, a, b):  
+=======
+    def __init__(self, a, b):
+>>>>>>> 625a9f2aedc8b5693189d0d90bde32cda8ac50fb
         self.a = int(a)
         self.b = int(b)
 
