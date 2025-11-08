@@ -11,4 +11,4 @@ class Solution:
 obj=Solution()
 n=120
 result=obj.evenlyDivides(n)
-print(result)   
+print(result)
