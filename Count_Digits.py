@@ -7,7 +7,6 @@ class Solution:
             if n % d == 0:
              count += 1   
         return count
-
 obj=Solution()
 n=120
 result=obj.evenlyDivides(n)
