@@ -1,3 +1,5 @@
+#Method 1
+
 arr= [1, 2, 3]
 k=4
 for _ in range(k):
@@ -6,3 +8,12 @@ for _ in range(k):
         arr.append(first)   
         
 print(arr)
+
+#Method 2
+
+arr= [1,2,3,4,5]
+k=4
+left=arr[k:]+arr[:k]
+right=arr[-k:]+arr[:-k]
+print(left)
+print(right)
