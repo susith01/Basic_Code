@@ -1,0 +1,8 @@
+a=int(input("Enter the number"))
+b=int(input("Enter the number"))
+rem=a%b 
+while rem!=0:
+    a=b
+    b=rem
+    rem=a%b
+print(b)
