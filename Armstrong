@@ -1,0 +1,12 @@
+n=int(input("Enter the number"))
+change=int(len(str(n)))
+sum=0
+temp=n
+while temp>0:
+    ren=temp%10
+    sum=sum+ren**change
+    temp=temp//10
+if n==sum:
+    print("The number is armstrong") 
+else:
+    print("The number is not armstrong")       
