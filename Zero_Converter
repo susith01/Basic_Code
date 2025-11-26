@@ -1,0 +1,15 @@
+class status:
+    def positive(self,n):
+        for i in reversed(range(n)):
+            print(i)
+    def negitive(self,n):
+        for i in range(n,1):
+            print(i)
+n=int(input("Enter the number"))            
+s=status()
+if n>=0:
+    print("positive reverse ")
+    s.positive(n)
+else:    
+    print("Negitive number")
+    s.negitive(n)
