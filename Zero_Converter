@@ -1,10 +1,10 @@
 class status:
     def positive(self,n):
         for i in reversed(range(n)):
-            print(i)
+            print(i,end=" ")
     def negitive(self,n):
         for i in range(n,1):
-            print(i)
+            print(i,end=" ")
 n=int(input("Enter the number"))            
 s=status()
 if n>=0:
