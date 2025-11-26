@@ -7,3 +7,4 @@ Day 5: Rotate_clockwise
 Day 6: GCD
 Day 7: Exponentiation of a number
 Day 8: Armstrong
+Day 9: Zero_converter
